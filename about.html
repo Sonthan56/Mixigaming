@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOP-ST - Giới Thiệu & Liên Hệ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Skip Link -->
+  <a href="#main-content" class="skip-link">Chuyển đến nội dung chính</a>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">SHOP-<span>ST</span></a>
+      
+      <div class="search-box">
+        <input type="text" placeholder="Tìm kiếm vợt Li-Ning..." aria-label="Tìm kiếm">
+        <button type="button" aria-label="Nút tìm kiếm">🔍</button>
+      </div>
+
+      <nav aria-label="Điều hướng chính">
+        <ul class="nav-links">
+          <li><a href="index.html">Trang Chủ</a></li>
+          <li><a href="products.html">Sản Phẩm Li-Ning</a></li>
+          <li><a href="about.html" class="active" aria-current="page">Giới Thiệu</a></li>
+        </ul>
+      </nav>
+
+      <button class="cart-btn" onclick="addToCart('Giỏ Hàng')" aria-label="Giỏ hàng">
+        🛒 <span class="cart-text">Giỏ Hàng</span>
+        <span class="cart-badge">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Về Chúng Tôi - SHOP-ST</h1>
+        <p>SHOP-ST là đối tác ủy quyền uy tín chuyên kinh doanh duy nhất thương hiệu **Cầu Lông Li-Ning**. Với đội ngũ kỹ thuật viên đan cước bằng máy điện tử đạt chuẩn kg quốc tế, chúng tôi cam kết mang lại sản phẩm chuẩn 100% chính hãng cùng thẻ bảo hành 90 ngày.</p>
+      </div>
+      <div class="hero-image-wrapper">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Nguyen_Tien_Minh_Viet_Nam.jpg?" alt="Không gian trưng bày vợt cầu lông Li-Ning chính hãng tại cửa hàng SHOP-ST" class="styled-img">
+      </div>
+    </section>
+
+    <section>
+      <form class="contact-form" action="#" method="post">
+        <h2>Tư Vấn Chọn Vợt Li-Ning Phù Hợp</h2>
+        <div class="form-group">
+          <label for="fullname">Họ và tên:</label>
+          <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Địa chỉ Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Lối chơi của bạn (Tấn công đập cầu / Phản tạt tốc độ / Điều cầu kiểm soát):</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Gửi Yêu Cầu Tư Vấn</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div>
+        <a href="index.html" class="logo">SHOP-<span>ST</span></a>
+        <p>Cửa hàng chuyên cung cấp vợt cầu lông Li-Ning chính hãng.</p>
+      </div>
+      <p>&copy; 2026 SHOP-ST. Tất cả quyền được bảo lưu.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

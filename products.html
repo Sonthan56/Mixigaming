@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOP-ST - Danh Mục Vợt Cầu Lông Li-Ning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Skip Link -->
+  <a href="#main-content" class="skip-link">Chuyển đến nội dung chính</a>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">SHOP-<span>ST</span></a>
+      
+      <div class="search-box">
+        <input type="text" placeholder="Tìm kiếm vợt Li-Ning..." aria-label="Tìm kiếm sản phẩm">
+        <button type="button" aria-label="Nút tìm kiếm">🔍</button>
+      </div>
+
+      <nav aria-label="Điều hướng chính">
+        <ul class="nav-links">
+          <li><a href="index.html">Trang Chủ</a></li>
+          <li><a href="products.html" class="active" aria-current="page">Sản Phẩm Li-Ning</a></li>
+          <li><a href="about.html">Giới Thiệu</a></li>
+        </ul>
+      </nav>
+
+      <button class="cart-btn" onclick="addToCart('Giỏ Hàng')" aria-label="Giỏ hàng">
+        🛒 <span class="cart-text">Giỏ Hàng</span>
+        <span class="cart-badge">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="section-header">
+      <h1>Bộ Sưu Tập Vợt Cầu Lông Li-Ning Chính Hãng</h1>
+      <p>Áp dụng bộ chọn <code>:nth-child</code> đổi kiểu đường viền bo góc xen kẽ cho 5 hình ảnh sản phẩm.</p>
+    </div>
+
+    <!-- Grid chứa 5 hình ảnh Vợt Li-Ning -->
+    <div class="product-grid">
+      
+      <!-- Ảnh 1/5: Li-Ning Axforce 90 -->
+      <article class="product-card">
+        <span class="badge-series">AXFORCE</span>
+        <img 
+          src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=500&q=80" 
+          alt="Vợt cầu lông Li-Ning Axforce 90 Tiger đan cước cao cấp đập cầu mạnh mẽ" 
+          class="styled-img">
+        <div class="product-info">
+          <span class="product-category">Tấn Công Uy Lực</span>
+          <h2 class="product-title">Li-Ning Axforce 90 Max</h2>
+          <div class="rating">⭐⭐⭐⭐⭐ <span>(156)</span></div>
+          <p class="product-specs">Trọng lượng: 4U/3U | Thân cứng | Nặng đầu</p>
+          <div class="price-row">
+            <span class="price">4.550.000₫</span>
+          </div>
+          <button class="add-cart-btn" onclick="addToCart('Li-Ning Axforce 90 Max')">Thêm Vào Giỏ</button>
+        </div>
+      </article>
+
+      <!-- Ảnh 2/5: Li-Ning Halbertec 8000 -->
+      <article class="product-card">
+        <span class="badge-series">HALBERTEC</span>
+        <img 
+          src="https://cdn.hstatic.net/products/200000099191/2e47_e4aa68dbfb4c4ae28ade15eb14fd0eec_0e3083ad673243088ff3ff8bbd1ed637_2a49f5cb4d3042edadd00bd065229eea_1024x1024.jpg" 
+          alt="Vợt cầu lông Li-Ning Halbertec 8000 phối màu xanh đỏ điều cầu chính xác" 
+          class="styled-img">
+        <div class="product-info">
+          <span class="product-category">Kiểm Soát Toàn Diện</span>
+          <h2 class="product-title">Li-Ning Halbertec 8000</h2>
+          <div class="rating">⭐⭐⭐⭐⭐ <span>(98)</span></div>
+          <p class="product-specs">Trọng lượng: 4U/G5 | Cân bằng | Thân trung bình</p>
+          <div class="price-row">
+            <span class="price">4.200.000₫</span>
+          </div>
+          <button class="add-cart-btn" onclick="addToCart('Li-Ning Halbertec 8000')">Thêm Vào Giỏ</button>
+        </div>
+      </article>
+
+      <!-- Ảnh 3/5: Li-Ning Bladex 800 -->
+      <article class="product-card">
+        <span class="badge-series">BLADEX</span>
+        <img 
+          src="https://shopvnb.com//uploads/gallery/vot-cau-long-lining-bladex-800-speed-new-2026-chinh-hang_1777426050.webp" 
+          alt="Vợt cầu lông Li-Ning Bladex 800 khung carbon vung vợt siêu nhanh" 
+          class="styled-img">
+        <div class="product-info">
+          <span class="product-category">Tốc Độ Phản Tạt</span>
+          <h2 class="product-title">Li-Ning Bladex 800 Sun</h2>
+          <div class="rating">⭐⭐⭐⭐⭐ <span>(84)</span></div>
+          <p class="product-specs">Trọng lượng: 3U/4U | Khung mỏng bộc phá</p>
+          <div class="price-row">
+            <span class="price">3.950.000₫</span>
+          </div>
+          <button class="add-cart-btn" onclick="addToCart('Li-Ning Bladex 800')">Thêm Vào Giỏ</button>
+        </div>
+      </article>
+
+      <!-- Ảnh 4/5: Li-Ning Tectonic 7 -->
+      <article class="product-card">
+        <span class="badge-series">TECTONIC</span>
+        <img 
+          src="https://votcaulongchinhhang.com/thumbs/1000x0x1/upload/product/img2482-7673.jpeg" 
+          alt="Vợt cầu lông Li-Ning Tectonic 7 khung năng lượng linh hoạt" 
+          class="styled-img">
+        <div class="product-info">
+          <span class="product-category">Công Thủ Trợ Lực</span>
+          <h2 class="product-title">Li-Ning Tectonic 7 Pro</h2>
+          <div class="rating">⭐⭐⭐⭐⭐ <span>(110)</span></div>
+          <p class="product-specs">Trọng lượng: 4U/G5 | Khung dẻo linh hoạt</p>
+          <div class="price-row">
+            <span class="price">3.800.000₫</span>
+          </div>
+          <button class="add-cart-btn" onclick="addToCart('Li-Ning Tectonic 7')">Thêm Vào Giỏ</button>
+        </div>
+      </article>
+
+      <!-- Ảnh 5/5: Li-Ning Windstorm 72 -->
+      <article class="product-card">
+        <span class="badge-series">WINDSTORM</span>
+        <img 
+          src="https://shopvnb.com//uploads/san_pham/vot-cau-long-lining-windstorm-72-blk-1.webp" 
+          alt="Vợt cầu lông Li-Ning Windstorm 72 siêu nhẹ phù hợp cho nữ và cầu thủ nhanh" 
+          class="styled-img">
+        <div class="product-info">
+          <span class="product-category">Siêu Nhẹ Trợ Lực</span>
+          <h2 class="product-title">Li-Ning Windstorm 72</h2>
+          <div class="rating">⭐⭐⭐⭐⭐ <span>(135)</span></div>
+          <p class="product-specs">Trọng lượng: 6U (72g) | Thân dẻo | Dễ chơi</p>
+          <div class="price-row">
+            <span class="price">2.650.000₫</span>
+          </div>
+          <button class="add-cart-btn" onclick="addToCart('Li-Ning Windstorm 72')">Thêm Vào Giỏ</button>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div>
+        <a href="index.html" class="logo">SHOP-<span>ST</span></a>
+        <p>Hệ thống chuyên phân phối vợt cầu lông Li-Ning toàn quốc.</p>
+      </div>
+      <p>&copy; 2026 SHOP-ST. Tất cả quyền được bảo lưu.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
